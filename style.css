@@ -1,0 +1,23 @@
+.header-top {
+    background: black;
+    color: #ffffff;
+    font-family: Helvetica;
+    font-size: 48px;
+    width: 100%;
+    
+    height:52px;
+    top: 0;
+    left: 0;
+    position: fixed;
+    
+    
+    
+}
+
+#phone {
+    float: right;
+    margin-right: 0px;
+    
+
+}
+
