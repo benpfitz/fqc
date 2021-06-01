@@ -1,71 +1,101 @@
-<!DOCTYPE html>
+g<!DOCTYPE html>
 <html>
     <head>
-        <meta charset="utf-8">
+        <meta charset="utf-8" />
         <title>Fitzgerald Quality Construction</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link href="style.css" rel="stylesheet" type="text/css">
+        <link href="./assets/css/style.css" rel="stylesheet" type="text/css" />
+        <script src="./assets/js/form.js"></script>
     </head>
+
     <body>
         <header class="main-header">
             <div class="header-top" class="top-container">
                 <div class="left-col">
                     <a class="site-logo" href="/fqc/index.html"></a>
-                        <span>Fitzgerald</span>
-                        <span>Quality</span>
-                        <span>Construction</span>
-                        <span id="phone">(317)828-4842</span>
-                     
+                    <span>Fitzgerald</span>
+                    <span>Quality</span>
+                    <span>Construction</span>
+                    <span id="phone">(317)828-4842</span>
                 </div>
-                
             </div>
             <div class="header-bot">
                 <nav>
                     <div class="topnav">
                         <a class="active" href="index.html">Home</a>
-                        <a class="verticalline" href="testimonials.html">Testimonials</a>
-                        
-                        <a class="verticalline vlright"  href="contact.html">Contact</a>
-                        <button id="quote" class="open-button" onclick="openForm()">Request a Free Quote</button>
-                            <div class="form-popup" id="myForm">
-                                <form action="/action_page.php" class="form-container">
-                                    <h1>Free Quote</h1>
+                        <a class="verticalline" href="testimonials.html"
+                            >Testimonials</a
+                        >
 
-                                    <label for="client-name"><b>Name</b></label>
-                                    <input type="text" placeholder="Enter Name" name="client-name" required>
-                          
-                                    <label for="email"><b>Email</b></label>
-                                    <input type="text" placeholder="Enter Email" name="email" required>
-                          
-                                    <label for="psw"><b>Phone number</b></label>
-                                    <input type="text" placeholder="Enter Phonenumber" name="psw" required>
+                        <a class="verticalline vlright" href="contact.html"
+                            >Contact</a
+                        >
+                        <button
+                            id="quote"
+                            class="open-button"
+                            onclick="openForm()"
+                        >
+                            Request a Free Quote
+                        </button>
+                        <div class="form-popup" id="myForm">
+                            <form
+                                action="/action_page.php"
+                                class="form-container"
+                            >
+                                <h1>Free Quote</h1>
 
-                                    <label for="job-desc"><b>Description of job</b></label>
-                                    <input type="text" placeholder="I need a 10x20 patio" name="job-desc" required>
-                          
-                                    <button type="submit" class="btn">Submit</button>
-                                    <button type="button" class="btn cancel" onclick="closeForm()">Cancel</button>
-                                </form>
-                            </div>
-                            <script>
-                                function openForm() {
-                                  document.getElementById("myForm").style.display = "block";
-                                }
-                                
-                                function closeForm() {
-                                  document.getElementById("myForm").style.display = "none";
-                                }
-                                </script>
-                      </div>
+                                <label for="client-name"><b>Name</b></label>
+                                <input
+                                    type="text"
+                                    placeholder="Enter Name"
+                                    name="client-name"
+                                    required
+                                />
+
+                                <label for="email"><b>Email</b></label>
+                                <input
+                                    type="text"
+                                    placeholder="Enter Email"
+                                    name="email"
+                                    required
+                                />
+
+                                <label for="psw"><b>Phone number</b></label>
+                                <input
+                                    type="text"
+                                    placeholder="Enter Phonenumber"
+                                    name="psw"
+                                    required
+                                />
+
+                                <label for="job-desc"
+                                    ><b>Description of job</b></label
+                                >
+                                <input
+                                    type="text"
+                                    placeholder="I need a 10x20 patio"
+                                    name="job-desc"
+                                    required
+                                />
+
+                                <button type="submit" class="btn">
+                                    Submit
+                                </button>
+                                <button
+                                    type="button"
+                                    class="btn cancel"
+                                    onclick="closeForm()"
+                                >
+                                    Cancel
+                                </button>
+                            </form>
+                        </div>
+                    </div>
                 </nav>
             </div>
         </header>
         <div class="main-content">
             <h2>Catchy title here</h2>
-
-
-
         </div>
-
     </body>
 </html>
